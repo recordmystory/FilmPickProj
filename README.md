@@ -1,11 +1,26 @@
-# Filmpick Project
+# FILMPICK (영화 추천 웹사이트)
+보고서 : https://www.miricanvas.com/v/131g6xb
 
-## 프로젝트 소개
+개발 기간 : 2024.02 ~ 2024. 03
 
-### 영화 정보와 영화에 대한 리뷰를 확인할 수 있고, 영화를 좋아하는 사용자들 간의 커뮤니티를 사용할 수 있는 사이트 구현
+개발 인원 : 6명 
 
-## 프로젝트 테이블
+<b>개발환경</b>
+- 언어 : Java 11, HTML/CSS, JavaScript
+- 서버 : Tomcat 9
+- 라이브러리 : Bootstrap, jQuery
+- DB : Oracle
+- IDE : Eclipse, Oracle SQL Developer, Visual Studio Code
 
-## 프로젝트 기능
+![USECASE DIAGRAM](https://github.com/recordmystory/FilmPickProject/blob/main/012.png)
+![ERD](https://github.com/recordmystory/FilmPickProject/blob/main/013.png)
+![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/025.png)
+![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/026.png)
+![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/027.png)
+![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/028.png)
+![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/029.png)
+![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/030.png)
+![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/031.png)
+![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/032.png)
+![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/33.png)
 
-## 내가 담당한 기능
