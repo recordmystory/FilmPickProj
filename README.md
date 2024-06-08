@@ -8,19 +8,103 @@
 <b>개발환경</b>
 - 언어 : Java 11, HTML/CSS, JavaScript
 - 서버 : Tomcat 9
-- 라이브러리 : Bootstrap, jQuery
+- 라이브러리 및 기술 : jQuery, Servlet, JSTL, Chart.js, Bootstrap 4
 - DB : Oracle
 - IDE : Eclipse, Oracle SQL Developer, Visual Studio Code
+  
+# 🎯 핵심 기능
 
-![USECASE DIAGRAM](https://github.com/recordmystory/FilmPickProject/blob/main/012.png)
-![ERD](https://github.com/recordmystory/FilmPickProject/blob/main/013.png)
-![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/025.png)
-![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/026.png)
-![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/027.png)
-![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/028.png)
-![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/029.png)
-![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/030.png)
-![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/031.png)
-![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/032.png)
-![기능시연_관리자페이지](https://github.com/recordmystory/FilmPickProject/blob/main/33.png)
+신고회원 관리 :
 
+1. 신고 회원 조회
+2. 신고된 회원 활동중지
+3. 신고된 회원 강제탈퇴
+
+1:1문의 :
+
+1. 해당 문의에 대한 답변 작성, 수정, 삭제
+
+영화 신청 건 승인 및 거절 :
+
+1. 신청 건의 상태에 따른 필터
+2. 영화 신청 건 조회
+3. 영화 신청 건 승인 및 거절
+
+# 🧱 담당 기능
+
+
+- 담당 역할 : 기획, UI 설계, DB 설계, PPT 작성, 화면 구현, 기능 구현
+- 기여도 30%(팀 구성원 : 6명)
+- 담당 기능
+    - 영화 사이트에 필요한 DB 테이블 조사 및 테이블 생성
+        - 유사 사이트 분석
+        - 기본적으로 필요한 테이블 생성
+    - 관리자 페이지 화면 설계
+    - 관리자 페이지 header와 sidebar 공통화
+
+# 👍 구현기능 소개
+
+
+## 관리자 - 회원 조회
+
+
+[구현기능설명]
+
+1. **전체 회원 조회** 
+    - 해당 사이트에 가입되어있는 회원 정보가 담긴 목록 조회
+2. **필터** 
+    - 회원 등급과 휴면 회원 여부에 따른 필터링
+    - **AJAX**를 이용한 **비동기식** 처리
+3. **페이징**
+
+## 관리자 - 탈퇴회원 조회
+
+
+[구현기능설명]
+
+1. **탈퇴한 회원 조회**
+    - 해당 사이트 내 탈퇴한 회원 조회
+2. **검색**
+    - 아이디 및 탈퇴일로 검색
+    - **AJAX**와 **동적 쿼리**를 이용해 구현
+3. **페이징**
+
+## 관리자 - 신고회원 관리
+
+[구현기능설명]
+
+1. **신고된 회원 조회**
+    - 사용자 사이트에서 신고된 회원 조회
+2. **활동중지**
+3. **강제탈퇴**
+4. **페이징**
+
+## 관리자 - 1:1문의 확인
+
+
+[구현기능설명]
+
+1. **1:1문의 목록 조회**
+    - 사용자 사이트 내에서 사용자가 작성한 문의 내용 조회
+2. **답변 작성**
+3. 작성된 답변 수정 및 삭제
+
+## 관리자 - 영화 신청 목록 조회, 승인 및 거절
+
+
+[구현기능설명]
+
+1. **사용자 신청 건 조회**
+2. **필터**
+    - 관리자 승인 여부에 따른 필터링
+    - **AJAX**를 이용해 구현
+3. **사용자 신청 건 승인 및 거절**
+    - 관리자는 신청 정보를 검토 후 불필요한 내용을 수정한 뒤 승인하거나 거절할 수 있음
+
+# 💪🏼 프로젝트 참여소감
+
+---
+
+- **CSS 디자인** : 프로젝트에서 UI/UX에도 관심을 가졌습니다. 사용자 친화적인 디자인을 위해 노력했습니다.
+- **프로젝트 관리 능력** : 프로젝트 초기에는 일정 관리와 팀원 간의 역할 분담에 어려움을 겪었지만, WBS 작성을 통해 이를 보완했습니다.
+- **적극적인 피드백 수용** :  코드 리뷰를 통해 피드백을 자세히 이해하고 필요한 부분을 수정했습니다. 또한 팀원들과 의견을 교환하며 피드백을 수용하는 자세를 배웠습니다.
