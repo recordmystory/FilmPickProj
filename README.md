@@ -1,5 +1,5 @@
 # FILMPICK (영화 추천 웹사이트)
-보고서 : https://www.miricanvas.com/v/131g6xb
+보고서 : [포트폴리오 링크](https://glossy-frigate-cb5.notion.site/Filmpick-9f61089e07de4ca695ae6f238701a238?pvs=4)
 
 개발 기간 : 2024.02 ~ 2024. 03
 
